@@ -28,7 +28,7 @@ public class HelloWorld extends CordovaPlugin {
 
     private void coolMethod(String message, CallbackContext callbackContext) {
         if (message != null && message.length() > 0) {
-            callbackContext.success(message);
+            callbackContext.success("Cool Method : " + message);
         } else {
             callbackContext.error("Expected one non-empty string argument.");
         }
@@ -36,7 +36,7 @@ public class HelloWorld extends CordovaPlugin {
 
     private void sayHello(String message, CallbackContext callbackContext) {
         if (message != null && message.length() > 0) {
-            callbackContext.success(message);
+            callbackContext.success("Hello Method : " + message);
         } else {
             callbackContext.error("Expected one non-empty string argument.");
         }
