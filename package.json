@@ -1,27 +1,17 @@
 {
-  "name": "cordova-plugin-hello-world",
-  "version": "0.0.1",
-  "description": "HelloWorld Plugin",
-  "cordova": {
-    "id": "cordova-plugin-hello-world",
-    "platforms": [
-      "ios",
-      "android"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sainaidu/HelloWorld.git"
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "This is HelloWorld example using cordova plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "ecosystem:cordova",
-    "cordova-ios",
-    "cordova-android"
+    "hello",
+    "cordova plugin",
+    "ionic",
+    "plugin"
   ],
-  "author": "SEsha",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sainaidu/HelloWorld/issues"
-  },
-  "homepage": "https://github.com/sainaidu/HelloWorld#readme"
+  "author": "Sesha",
+  "license": "ISC"
 }
